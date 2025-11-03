@@ -10,7 +10,7 @@ import { Header } from "@/components/header"
 import { ModelSelector } from "@/components/model-selector"
 import { ThemeProvider } from "@/components/theme-provider"
 
-export type AIModel = "gemini"
+export type AIModel = "gemini" | "grok" | "openai"
 export type ThemeMode = "dawn" | "day" | "sunset" | "night" | "midnight"
 
 interface Message {
