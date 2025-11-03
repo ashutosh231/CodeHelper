@@ -8,6 +8,10 @@
     "start": "next start",
     "lint": "eslint ."
   },
+  "overrides": {
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
   "dependencies": {
     "@ai-sdk/google": "2.0.26",
     "@ai-sdk/openai": "2.0.60",
